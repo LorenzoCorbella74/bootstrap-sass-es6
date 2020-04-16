@@ -1,8 +1,8 @@
 # bootstrap4-test
 
-Test boilerplate built with [bootstrap 4](https://getbootstrap.com/) customised with Sass, Javascript ES6, [Parcel](https://parceljs.org/)
+Test boilerplate built with [bootstrap 4](https://getbootstrap.com/) customised with [Sass](https://getbootstrap.com/docs/4.0/getting-started/theming/), Javascript ES6, [Parcel](https://parceljs.org/). Consider this blog [post](https://coursetro.com/posts/code/130/Learn-Bootstrap-4-Final-in-2018-with-our-Free-Crash-Course) for reference.
 
-## Building and running on localhost
+## Usage
 
 First install dependencies:
 
@@ -10,7 +10,7 @@ First install dependencies:
 npm install
 ```
 
-To run in hot module reloading mode:
+To run a development environment in hot module reloading:
 
 ```sh
 npm start
