@@ -1,0 +1,47 @@
+// override bootstrap default theme colors
+$theme-colors: (
+  "primary": #375a7f,
+  "secondary": #444,
+  "success": #00bc8c,
+  "info": #3498DB,
+  "warning": #F39C12,
+  "danger": #E74C3C,
+);
+
+// increase the default spacing
+$spacer:1.25rem;
+
+// adjust the default heading font weight
+$headings-font-weight:600;
+
+// adjust the default font weights
+$font-weight-light:300;
+$font-weight-normal:400;
+$font-weight-bold:600;
+
+// adjust the default font size
+$font-size-base:1rem;
+
+// add more spacers
+$spacer: 1rem !default;
+$spacers: (
+    6: ($spacer * 4),
+    7: ($spacer * 5),
+    8: ($spacer * 7.50),
+    9: ($spacer * 10)
+  );
+
+// set the button border radius
+$btn-border-radius:2px;
+
+// change the hyperlink color
+$link-color: #00bc8c;
+
+// remove underline from hyperlinks
+$link-hover-decoration: none;
+
+$enable-rounded: true !default;
+
+$font-family-sans-serif: 'Manrope', sans-serif;
+
+$body-bg: #ededed;
